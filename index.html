@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Twitter clone</title>
+</head>
+<body>
+  <!-- Navbar fixed top -->
+  <nav class="navbar navbar-default navbar-fixed-top header--structure">
+  <div class="container content-structure">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!-- Left part of navbar -->
+      <ul class="nav navbar-nav">
+        <li>
+          <a class="header--home" href="#">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li><a href="#">Sobre nosotros</a></li>
+      </ul>
+      <!-- EndLeft part of navbar -->
+      <!-- Right part of navbar -->
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">¿Tienes cuenta? Iniciar sesión <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- Search input -->
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group header--form--group">
+          <input class="header--search" type="text" class="form-control" placeholder="Buscar en Twitter">
+            <span class="header--search--icon"></span>
+          </input>
+        </div>
+      </form>
+      </div>
+    </div>
+  </nav>
+  <!-- End navbar -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Main photo -->
+      <img class="img-responsive" src="https://pbs.twimg.com/profile_banners/1551130856/1454708698/1500x500">
+      <nav class="navbar navbar-default">
+      <!-- Followers bar -->
+      <div class="col-lg-3"></div>
+      <div class="col-lg-9">
+        <ul class="list-inline navbar-profile">
+          <li>
+            <p>
+              <span class="navbar-profle-label">TWEETS</span>
+              <span class="navbar-profile-label">2847</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <span class="navbar-profle-label">SIGUIENDO</span>
+              <span class="navbar-profile-label">2419</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <span class="navbar-profle-label">SEGUIDORES</span>
+              <span class="navbar-profile-label">7158</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <span class="navbar-profle-label">ME GUSTA</span>
+              <span class="navbar-profile-label">38,3 K</span>
+            </p>
+          </li>
+          <li>
+            <p>
+              <span class="navbar-profle-label">LISTAS</span>
+              <span class="navbar-profile-label">7</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- End followers bar -->
+      <!-- Profile avtar -->
+      <div class="profile--avatar">
+        <img class="profile--img" src="https://pbs.twimg.com/profile_images/466256995675160576/4L9u4Au__400x400.png">
+      </div>
+    </div>
+  </nav>
+
+</body>
+</html>

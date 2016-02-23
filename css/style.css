@@ -1,0 +1,124 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+body {
+  background-color:#f5f8fa;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+ /*Logo Twitter*/
+.twitter--color{
+  color: #1da1f2;
+}
+
+.header--home::before{
+  font-family:FontAwesome;
+  content: "\f099";
+  font-size: 30px;
+  vertical-align: middle;
+  color: #1da1f2;
+  margin-right: 10px;
+}
+
+.header--structure{
+  margin:0px;
+  background-color: #fff;
+}
+
+.header--structure li {
+  border-bottom: 5px solid transparent;
+  padding:0px;
+}
+
+.header--structure li:hover {
+  border-bottom: 5px solid #1da1f2;
+}
+
+.header--span{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+}
+/*Search input*/
+.header--search{
+  border: 1px solid #e7e7e7;
+  border-radius: 25px;
+  padding: 5px, 10px;
+  width: 200px;
+  font-size: 12px;
+  margin: 5px 0;
+  background-color: #f5f8fa;
+}
+
+/*Search input logo*/
+.header--search--icon::before{
+  font-family:FontAwesome;
+  content: "\f002";
+  font-size: 15px;
+  vertical-align: middle;
+  color: #1da1f2;
+  position: relative;
+  left: -25px;
+}
+
+/*Logo Ironhack*/
+.profile--avatar {
+    bottom: -38px;
+    left: 46px;
+    position: absolute;
+    transition: bottom .3s;
+    z-index: 3;
+}
+.profile--img{
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+  border: 5px solid #fff;
+  position: relative;
+}
+
+/*Bar followers*/
+.navbar-profile {
+  min-height: 50px;
+  margin-bottom: 0px;
+}
+
+.navbar-profile li:hover{
+  border-bottom: 5px solid #1da1f2;
+}
+
+.navbar-profile p{
+  padding: 14px 15px 0px;
+  text-align: center;
+}
+
+.navbar-profile-label{
+  color: #66757f;
+  font-size: 11px;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  display: block;
+}
+
+.navbar-profile-value{
+  color: #292f33;
+  font-size: 18px;
+  padding-top: 3px;
+  font-weight: 500;
+  display: block;
+}
+
+.content--structure{
+  margin: 0 20px;
+}
